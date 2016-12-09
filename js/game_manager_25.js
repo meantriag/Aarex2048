@@ -6,7 +6,7 @@ function GameManager(size, InputManager, Actuator, StorageManager, easy) {
   this.easy           = easy;
 
   this.startTiles     = 2;
-  this.maxStartingTile = 1;
+  this.maxStartingTile = 5;
 
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
@@ -48,7 +48,7 @@ GameManager.prototype.setup = function () {
   } else {
     this.grid        = new Grid(this.size);
     this.score       = 0;
-    this.maxStartingTile = 1;
+    this.maxStartingTile = 5;
     this.over        = false;
     this.won         = false;
     this.keepPlaying = false;
@@ -155,11 +155,11 @@ GameManager.prototype.move = function (direction) {
 
         // Only one merger per row traversal?
         if (next && next.value === tile.value && !next.mergedFrom) {
-          var merged = new Tile(positions.next, tile.value + 1);
+          var merged = new Tile(positions.next, tile.value * 5);
           
-          if (this.easy && tile.value > this.maxStartingTile - 5)
+          if (this.easy && tile.value > this.maxStartingTile = 5)
           {
-            this.maxStartingTile = this.maxStartingTile + 1;
+            this.maxStartingTile = this.maxStartingTile + 0;
           }
           
           merged.mergedFrom = [tile, next];
