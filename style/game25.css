@@ -338,30 +338,30 @@ hr {
   -moz-transition: 100ms ease-in-out;
   -webkit-transition-property: top, left;
   -moz-transition-property: top, left; }
-  .tile.tile-1 {
-    color: #000000;
-    background: #ffffff; }
-  .tile.tile-2 {
-    color: #000000;
-    background: #cf7f7f; }
-  .tile.tile-3 {
-    color: #000000;
-    background: #7f0000; }
-  .tile.tile-4 {
-    color: #000000;
-    background: #7f7f00; }
   .tile.tile-5 {
     color: #000000;
-    background: #007f00; }
-  .tile.tile-6 {
+    background: #f9ffff; }
+  .tile.tile-25 {
     color: #000000;
-    background: #007f7f; }
-  .tile.tile-7 {
+    background: #f9ffff; }
+  .tile.tile-125 {
     color: #000000;
-    background: #00007f; }
+    background: #f9ffff; }
+  .tile.tile-625 {
+    color: #000000;
+    background: #f9ffff; }
+  .tile.tile-3125 {
+    color: #000000;
+    background: #f9ffff; }
+  .tile.tile-15625 {
+    color: #000000;
+    background: #f9ffff; }
+  .tile.tile-78125 {
+    color: #000000;
+    background: #f9ffff; }
   .tile.tile-8 {
     color: #000000;
-    background: #7f007f; }
+    background: #f9ffff; }
   .tile.tile-9 {
     color: #000000;
     background: #7f7f7f; }
