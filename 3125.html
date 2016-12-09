@@ -2,7 +2,7 @@
 <html lang="en" manifest="cache.appcache">
 <head>
   <meta charset="utf-8">
-  <title>65536 Endless</title>
+  <title>3125</title>
 
   <link href="style/size5.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
@@ -23,7 +23,7 @@
 <body>
   <div class="container">
     <div class="heading">
-      <h1 class="title">65536 Endless</h1>
+      <h1 class="title">3125</h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
@@ -31,7 +31,7 @@
     </div>
 
     <div class="above-game">
-      <p class="game-intro">Just join the numbers and get high score in this page!</p>
+      <p class="game-intro">Join identical numbers and get to a 3125 tile.</p>
       <a class="restart-button"></a>
     </div>
 
@@ -93,11 +93,11 @@
     </p>
     <hr>
     <p>
-      Can you reach <strong>65536, 131072, and 262144 tiles?</strong>
+      Can you reach <strong>3125, 15625, and 78125 tiles?</strong>
     </p>
     <hr>
     <p>
-    Click here for <a href="http://aarextiaokhiao.github.io/Aarex2048/list.html">the list.</a>
+    Click here for <a href="http://meantriag.github.io">Mean Triag.</a>
     </p>
   </div>
 
@@ -111,7 +111,7 @@
   <script src="js/local_storage_manager.js"></script>
   <script src="js/game_manager.js"></script>
   <script>
-  var Goal = 1
+  var Goal = 3125
   window.requestAnimationFrame(function () {
   new GameManager(5, KeyboardInputManager, HTMLActuator, LocalStorageManager);
   });
