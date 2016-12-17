@@ -2,7 +2,7 @@
 <html lang="en" manifest="cache.appcache">
 <head>
   <meta charset="utf-8">
-  <title>4194304 Endless</title>
+  <title>-16</title>
 
   <link href="style/size6.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
@@ -15,15 +15,15 @@
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
   <meta name="format-detection" content="telephone=no" />
 
-  <meta property="og:title" content="4194304 Endless game"/>
-  <meta property="og:site_name" content="4194304 Endless game"/>
+  <meta property="og:title" content="-16 game"/>
+  <meta property="og:site_name" content="-16 game"/>
   <meta property="og:description" content="Just join the numbers to get high score in this page! Careful: this game is extremely addictive!"/>
   <meta property="og:image" content="http://gabrielecirulli.github.io/2048/meta/og_image.png"/>
 </head>
 <body>
   <div class="container">
     <div class="heading">
-      <h1 class="title">4194304 Endless</h1>
+      <h1 class="title">-16</h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
@@ -31,8 +31,8 @@
     </div>
 
     <div class="above-game">
-      <p class="game-intro">Just join the numbers to get high score in this page!</p>
-      <a class="restart-button">Play again</a>
+      <p class="game-intro">Join the numbers and get to the -16 tile.</p>
+      <a class="restart-button">New Game</a>
     </div>
 
     <div class="game-container">
@@ -106,11 +106,11 @@
     </p>
     <hr>
     <p>
-      Can you reach <strong>4194304, 8388608, and 16777216 tiles?</strong>
+      Can you reach the <strong>-16</strong> tile?
     </p>
     <hr>
     <p>
-    Click here for <a href="http://aarextiaokhiao.github.io/Aarex2048/list.html">the list.</a>
+    Click here for <a href="http://meantriag.github.io">Mean Triag.</a>
     </p>
   </div>
 
@@ -122,9 +122,9 @@
   <script src="js/grid.js"></script>
   <script src="js/tile.js"></script>
   <script src="js/local_storage_manager.js"></script>
-  <script src="js/game_manager.js"></script>
+  <script src="js/game_manager_size6.js"></script>
   <script>
-  var Goal = 1
+  var Goal = -16
   window.requestAnimationFrame(function () {
   new GameManager(6, KeyboardInputManager, HTMLActuator, LocalStorageManager);
   });
