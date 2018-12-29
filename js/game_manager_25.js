@@ -5,7 +5,7 @@ function GameManager(size, InputManager, Actuator, StorageManager, easy) {
   this.actuator       = new Actuator;
   this.easy           = easy;
 
-  this.startTiles     = 2;
+  this.startTiles     = 1;
   this.maxStartingTile = 5;
 
   this.inputManager.on("move", this.move.bind(this));
