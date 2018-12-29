@@ -2,7 +2,7 @@
 <html lang="en" manifest="cache.appcache">
 <head>
   <meta charset="utf-8">
-  <title>65536</title>
+  <title>524288</title>
 
   <link href="style/size5.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
@@ -15,15 +15,14 @@
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
   <meta name="format-detection" content="telephone=no" />
 
-  <meta property="og:title" content="65536 game"/>
-  <meta property="og:site_name" content="65536 game"/>
-  <meta property="og:description" content="Join the numbers and get to the 65536 tile! Careful: this game is extremely addictive!"/>
-  <meta property="og:image" content="http://gabrielecirulli.github.io/2048/meta/og_image.png"/>
+  <meta property="og:title" content="524288 game"/>
+  <meta property="og:site_name" content="524288 game"/>
+  <meta property="og:description" content="Join the numbers and get to the 524288 tile! Careful: this game is extremely addictive!"/>
 </head>
 <body>
   <div class="container">
     <div class="heading">
-      <h1 class="title">65536</h1>
+      <h1 class="title">524288</h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
@@ -31,7 +30,7 @@
     </div>
 
     <div class="above-game">
-      <p class="game-intro">Join the numbers and get to the <strong>65536 tile!</strong></p>
+      <p class="game-intro">Join the numbers and get to the <strong>524288 tile!</strong></p>
       <a class="restart-button"></a>
     </div>
 
@@ -40,7 +39,7 @@
         <p></p>
         <div class="lower">
 	        <a class="keep-playing-button">Keep playing</a>
-          <a class="retry-button">Play again</a>
+          <a class="retry-button">Try again</a>
           <div class="score-sharing"></div>
         </div>
       </div>
@@ -89,11 +88,11 @@
     </div>
 
     <p class="game-explanation">
-      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one! Merge some super tiles in this difficult version of 2048.</strong>
     </p>
     <hr>
     <p>
-    Click here for <a href="http://aarextiaokhiao.github.io/Aarex2048/list.html">the list.</a>
+    Click here for <a href="https://meantriag.github.io/">Mean Triag.</a>
     </p>
   </div>
 
@@ -107,7 +106,7 @@
   <script src="js/local_storage_manager.js"></script>
   <script src="js/game_manager.js"></script>
   <script>
-  var Goal = 65536
+  var Goal = 524288
   window.requestAnimationFrame(function () {
   new GameManager(5, KeyboardInputManager, HTMLActuator, LocalStorageManager);
   });
