@@ -2,7 +2,7 @@
 <html lang="en" manifest="cache.appcache">
 <head>
   <meta charset="utf-8">
-  <title>Don't make 2048</title>
+  <title>Don't Make 1024</title>
 
   <link href="style/size5.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
@@ -15,10 +15,10 @@
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
   <meta name="format-detection" content="telephone=no" />
 
-  <meta property="og:title" content="Don't make 2048 game"/>
-  <meta property="og:site_name" content="Don't make 2048 game"/>
-  <meta property="og:description" content="Join the numbers and get to game over before you make 2048 tile! Careful: this game is extremely addictive!"/>
-  <meta property="og:image" content="http://gabrielecirulli.github.io/2048/meta/og_image.png"/>
+  <meta property="og:title" content="Don't make 1024 game"/>
+  <meta property="og:site_name" content="Don't make 1024 game"/>
+  <meta property="og:description" content="Join the numbers and get to game over before you make 1024 tile! Careful: this game is extremely addictive!"/>
+  <meta property="og:image" content="http://gabrielecirulli.github.io/2049/meta/og_image.png"/>
 </head>
 <body>
   <div class="container">
@@ -31,7 +31,7 @@
     </div>
 
     <div class="above-game">
-      <p class="game-intro">Join the numbers and get to game over before you make <strong>2048 tile!</strong></p>
+      <p class="game-intro">Join the numbers and get to game over before you make <strong>1024 tile!</strong></p>
       <a class="restart-button"></a>
     </div>
 
@@ -39,7 +39,7 @@
       <div class="game-message">
         <p></p>
         <div class="lower">
-	        <a class="keep-playing-button">Hide won screen</a>
+	        <a class="keep-playing-button">Keep playing</a>
           <a class="retry-button">Play again</a>
           <div class="score-sharing"></div>
         </div>
@@ -93,7 +93,7 @@
     </p>
     <hr>
     <p>
-    Click here for <a href="http://aarextiaokhiao.github.io/Aarex2048/list.html">the list.</a>
+    Click here for <a href="https://meantriag.github.io">Mean Triag.</a>
     </p>
   </div>
 
@@ -107,7 +107,7 @@
   <script src="js/local_storage_manager.js"></script>
   <script src="js/game_manager_dontmake128.js"></script>
   <script>
-  var Goal = 2048
+  var Goal = 1024
   window.requestAnimationFrame(function () {
   new GameManager(5, KeyboardInputManager, HTMLActuator, LocalStorageManager);
   });
