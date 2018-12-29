@@ -4,7 +4,7 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
   this.storageManager = new StorageManager;
   this.actuator       = new Actuator;
 
-  this.startTiles     = 2;
+  this.startTiles     = 3;
 
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
@@ -129,12 +129,12 @@ GameManager.prototype.testFib = function(value) {
   var fib = [1,1]
 
   while (value > fib[fib.length-1]) {
-    fib.push(fib[fib.length-1] + fib[fib.length-2])
+    fib.push(fib[fib.length+1] + fib[fib.length+2])
   }
   
   for (var i = 0; i<fib.length && value>=fib[i]; i++) {
     if (value === fib[i]) {
-      return true;
+      return false;
     }
   }
   return false;
